@@ -1,0 +1,28 @@
+# --- Backend API ---
+fastapi==0.141.1
+uvicorn[standard]==0.52.3
+pydantic==2.13.4
+pydantic-settings==2.15.0
+python-dotenv==1.2.3
+
+# --- HuggingFace Spaces deployment entrypoint (app.py) only ---
+# Not used by the local FastAPI/agent workflow described in the README;
+# only needed when running this project as an HF Space (Gradio SDK).
+gradio==6.24.0
+
+# --- Voice orchestration (LiveKit Agents) ---
+livekit-agents==1.6.10
+livekit-plugins-sarvam==1.6.10   # STT + TTS, native coverage for en/hi/mr/ta/kn
+livekit-plugins-silero==1.6.10   # VAD
+livekit-plugins-openai==1.6.10   # OpenAI-compatible LLM client, pointed at OpenRouter
+
+# --- Language detection ---
+langdetect==1.0.9
+
+# --- Database ---
+supabase==2.31.0
+
+# --- Testing ---
+pytest==9.1.1
+pytest-asyncio==1.4.0
+httpx==0.28.1

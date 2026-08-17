@@ -1,0 +1,38 @@
+{
+  "disclaimer": "These are fictional demo insurance policies created for a portfolio/demo project. They do not represent real insurance products and must not be used to make real financial or medical decisions.",
+  "policies": [
+    {
+      "id": "health_basic",
+      "name": "Health Basic",
+      "description": "An entry-level demo health cover suited to individuals or couples with straightforward needs and a tight budget.",
+      "coverage": 500000,
+      "annual_premium": 12000,
+      "max_family_size": 2,
+      "max_insured_age": 55,
+      "covers_pre_existing_conditions": false,
+      "notes": "Demo fictional policy. Does not cover pre-existing conditions."
+    },
+    {
+      "id": "health_plus",
+      "name": "Health Plus",
+      "description": "A mid-tier demo family cover with a higher sum insured, suited to small-to-medium families.",
+      "coverage": 1000000,
+      "annual_premium": 22000,
+      "max_family_size": 5,
+      "max_insured_age": 65,
+      "covers_pre_existing_conditions": true,
+      "notes": "Demo fictional policy. Covers declared pre-existing conditions after a standard waiting period."
+    },
+    {
+      "id": "health_premium",
+      "name": "Health Premium",
+      "description": "A comprehensive demo cover with the highest sum insured, suited to larger families and older members.",
+      "coverage": 2000000,
+      "annual_premium": 40000,
+      "max_family_size": 8,
+      "max_insured_age": 75,
+      "covers_pre_existing_conditions": true,
+      "notes": "Demo fictional policy. Covers declared pre-existing conditions after a standard waiting period."
+    }
+  ]
+}
